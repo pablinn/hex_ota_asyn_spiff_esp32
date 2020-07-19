@@ -1,2 +1,4 @@
-#define MYSSID "HUAWEI-B7A6"
-#define PASSWD "samurai_1982"
+
+//paswords
+#define WIFI_SSID         "TU ROUTER"    
+#define WIFI_PASS         "TU PASSWORD"
