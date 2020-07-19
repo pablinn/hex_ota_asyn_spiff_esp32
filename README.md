@@ -1,9 +1,8 @@
-<p>Proyecto usando hex_ota_asyn_spiff_esp32 
-<p>OTA
-<p>Asyncwebserver
-<p>spiff
-<p>esp32
-<p>PCA 
+<p>Montaje de un hexapodo con esp32 driver de servos con PCA9685 
+<p>programable por OTA
+<p>Uso de Asyncwebserver
+<p>Uso de spiff
+
 
 <p>Editor de texto y programacion geany 1.33
 
@@ -20,12 +19,23 @@
 
 
 <p>Desde la terminal crear el proyecto o usar Visual estudio code
-<p>platformio project init --board 
+<p>platformio project init --board esp32
 
 
 <p>lib dependencias dentro de la carpeta o usar platformio para la gestion de librerias
 <p>ESPAsyncTCP
 <p>https://github.com/me-no-dev/AsyncTCP.git
+
+<p>ESPAsyncWebserver
+<p>https://github.com/me-no-dev/ESPAsyncTCP.git
+
+<ESP32Servo>
+https://github.com/jkb-git/ESP32Servo.git
+
+<p>Adafruit PCA9685 PWM Servo Driver Library 
+<p>https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library.git
+
+<p>
 
 <p>Dentro de source colocar main.cpp y pass.h
 <p>src ->main.cpp
